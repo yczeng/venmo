@@ -80,6 +80,9 @@ def parse_args():
     parser_reset = subparsers.add_parser('reset', help='reset saved data')
     parser_reset.set_defaults(func=venmo.auth.reset)
 
+    parser_balance = subparsers.add_parser('balance', help='get balance')
+    parser_balance.set_defaults(func=venmo.balance.balance)
+
     parser.add_argument('-v', '--version', action='version',
                         version='%(prog)s ' + venmo.__version__)
 

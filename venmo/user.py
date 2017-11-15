@@ -36,4 +36,5 @@ def search(query):
             'display_name': u['display_name'],
             'profile_picture_url': u['profile_picture_url'],
         })
+
     return results

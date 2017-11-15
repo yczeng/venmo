@@ -9,6 +9,7 @@ logging.getLogger('requests').setLevel(logging.WARNING)
 
 from . import (
     auth,
+    balance,
     cli,
     cookies,
     payment,
