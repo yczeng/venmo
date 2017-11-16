@@ -23,3 +23,4 @@ def balance():
 
     print(response_dict['data']['balance'])
     return response_dict['data']['balance']
+    
